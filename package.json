@@ -1,0 +1,57 @@
+{
+  "name": "koishi-plugin-react",
+  "description": "Koishi React support",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": {
+    "name": "Il Harper",
+    "email": "hi@ilharper.com",
+    "url": "https://ilharper.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ilharp/koishi-plugin-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilharp/koishi-plugin-react.git"
+  },
+  "scripts": {
+    "build": "atsc -b"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "react"
+  ],
+  "dependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "atsc": "^1.2.2",
+    "koishi": "^4.12.0",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "koishi": "^4.12.0"
+  },
+  "koishi": {
+    "description": {
+      "en": "Koishi React support",
+      "zh": "Koishi React 支持"
+    },
+    "service": {
+      "implements": [
+        "react"
+      ]
+    },
+    "locales": [
+      "en",
+      "zh"
+    ]
+  }
+}
